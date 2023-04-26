@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 body,
 html {
   height: 100%;
@@ -9,6 +9,14 @@ html {
   height: 100%;
   background: url(https://img.freepik.com/free-vector/crumpled-blue-checkered-paper-texture-realisric_107791-13515.jpg?w=1380&t=st=1681700446~exp=1681701046~hmac=557951a729e840565164169e496f7bc368104dbb58762104981d10b882a1ed58);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: space;
   background-size: cover;
+}
+
+.content {
+  font-size: larger;
+  font-family: "Gloria Hallelujah", cursive;
+  //backdrop-filter: blur(2px);
+  padding: 0 100px;
+  //border: 1px solid black;
 }

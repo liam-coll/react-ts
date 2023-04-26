@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Universal Language",
+    "year": "2021",
+    "imageID": "UL.jpg",
+    "shortdescription": "A light installation exploring colours and lights and their universal meanings around the world.",
+    "description": "A light installation piece I put together with fellow artists Vaanipriya Diwan and Shalvin Samy, for the Auckland Museum of Transport and Technology annual Night Lights event. We explored how colours and symbols have the same universal meaning around the world, and focused on the three colours of a traffic light. The installation consists of a Kinect motion sensor, an Arduino, laptop, and three infinity cubes containing LED strips. The Kinect tracks the users hands and head and lights up more LEDs the higher the body part is in frame. The infinity cubes are made from acrylic, wood and one way mirror film. This creates a striking infinite reflection effect. I was the lead technician in this project and wrote all of the Arduino and Processing code.",
+    "documentation": false,
+    "links": [
+      {
+        "text": "Interview on MOTAT.com",
+        "url": "https://www.motat.nz/collections-and-stories/stories/motat-night-lights-q-a-universal-language"
+      }
+    ]
+  },
+  {
+    "title": "Time Travel TV",
+    "year": "2020",
+    "imageID": "ttvshowcase.jpg",
+    "shortdescription": "Exploring New Zealand TV history and its relationship with our personal and collective memories.",
+    "description": "Time Travel TV is an installation all about the history of local New Zealand television and how it lives on in our memories. Some shows are remembered in our collective mindset, but some are a little harder to uncover. Time Travel TV takes you back in time and allows you to watch locally broadcast television from the 1980s, 1990s and the 2000s. This was my final project for my last semester in Bachelor of Creative Technologies (BCT).",
+    "documentation": false,
+    "docID": "TTV",
+    "links": [
+      {
+        "text": "Check it out!",
+        "url": "https://youtu.be/6EG0ABmLLXs"
+      },
+      {
+        "text": "Future Environments Page",
+        "url": "https://futureenvironments.aut.ac.nz/work/time-travel-tv?dept="
+      }
+    ]
+  },
+  {
+    "title": "EntertAInment",
+    "year": "2020",
+    "imageID": "entertainment.jpg",
+    "shortdescription": "An Experiment With Machine Learning and It's Ability to Write Cohesive and Original Short Stories/Films, and It's Effect on the Entertainment Industry.",
+    "description": "Research I undertook examining the potential dangers of Artificial Intelligence and Machine Learning upon the entertainment industry. I used a text generation neural network, trained it with a selection of science fiction short stories and attempted to make it write a new one by itself. If it was successful, then the industry of creative writing would be at risk.",
+    "documentation": false,
+    "docID": "",
+    "links": [
+      {
+        "text": "Read it!",
+        "url": "/Files/Entertainment.pdf"
+      }
+    ]
+  },
+  {
+    "title": "RADI/O",
+    "year": "2020",
+    "imageID": "radiofinal.jpg",
+    "shortdescription": "The result of a semesters worth of experimentation, circuit bending and sound generation.",
+    "description": "RADI/O is a deep dive into the world of audio. I took a brief of 'experiment with space, image and sound' and spent 4 months experimenting with radio broadcasts, audio effects and production, audio circuitry, circuit hacking and e-waste recycling. This culminated in RADI/O, a square-wave generator built into a radio case.",
+    "documentation": false,
+    "docID": "RADIO",
+    "links": [
+      {
+        "text": "Watch it!",
+        "url": "https://youtu.be/emwU7rPIlMU"
+      }
+    ]
+  },
+  {
+    "title": "STEM Rocket",
+    "year": "2020",
+    "imageID": "STEMRocket.png",
+    "shortdescription": "Teaching kids about the wonders of STEM using Google Cardboard VR.",
+    "description": "A demo level myself and a small team built, with the intent to explore modern and novel ways to educate children aged 8-12 about a chosen topic of STEM: Science, Technology, Engineering and Mathematics. Each branch of STEM is examined and explored in a virtual reality environment, in the context of a rocket construction and launch. Children complete a task for each branch, and ultimately get to ride the rocket into space.",
+    "documentation": false,
+    "links": [
+      {
+        "text": "Play it!",
+        "url": "https://liam-coll.itch.io/stem-rocket"
+      }
+    ]
+  },
+  {
+    "title": "Heirlooms of Aeons",
+    "year": "2020",
+    "imageID": "HoA2.png",
+    "shortdescription": "A world-building exercise centred on themes of time, family and the objects we remember loved ones by.",
+    "description": "A 4 month long exercise in building worlds, focusing on themes of time, family, and the value of objects. This is a collection of art, interactive stories and 3D web-based game. I served as project manager and lead developer.",
+    "documentation": false,
+    "links": [
+      {
+        "text": "Check it out!",
+        "url": "https://ethicalmagicians.github.io/"
+      },
+      {
+        "text": "Future Environments Page",
+        "url": "https://futureenvironments.aut.ac.nz/work/heirlooms-of-aeons?dept="
+      }
+    ]
+  },
+  {
+    "title": "Duck Inc",
+    "year": "2020",
+    "imageID": "DonSwan.png",
+    "shortdescription": "Run an office staffed by suspicious birds.",
+    "description": "My final project for my minor in Game and Play design. A genre-bent 2D Unity game, exploring magical realism and crime genres. Influenced by story driven admin-simulator games such as Papers Please, you work the front desk at a company run for and by ducks, but slowly begin to suspect things are not as they seem.",
+    "documentation": false,
+    "links": [
+      {
+        "text": "Play it!",
+        "url": "https://liam-coll.itch.io/duck-inc"
+      }
+    ]
+  },
+  {
+    "title": "Illuminate 2019 Recap Video",
+    "year": "2019",
+    "imageID": "illuminate.png",
+    "shortdescription": "I produced the recap video for Illuminate 2019, the 14th New Zealand Venture for Scouts NZ.",
+    "description": "In early 2019 I was part of the media team at Illuminate 2019, a summer camp for Scouts aged 14-18. I spent 10 days travelling the North Island and remaining on site in Kaiwaka, taking photographs, filming the action and producing this recap video, which remains in use as advertisement for Scouts NZ.",
+    "documentation": false,
+    "links": [
+      {
+        "text": "Watch it!",
+        "url": "https://youtu.be/NlOutByIjJs"
+      }
+    ]
+  },
+  {
+    "title": "The Influence of Sci-Fi AIs on Real Life AIs and AI Media Reporting",
+    "year": "2020",
+    "imageID": "AI.jpg",
+    "shortdescription": "A short video essay I wrote and produced about science fiction and it's influence on AI technologies.",
+    "description": "A short video essay I wrote and produced during the first New Zealand 2020 lockdown. I explore the history of Articifial Intelligence throughout Science Fiction history, and examine the long term effect of how AI is both developed in real life, how it is collectively thought about in human common knowledge, and how it is reported on in the media.",
+    "documentation": false,
+    "links": [
+      {
+        "text": "Watch it!",
+        "url": "https://youtu.be/373rv4iLo1c"
+      }
+    ]
+  }
+]

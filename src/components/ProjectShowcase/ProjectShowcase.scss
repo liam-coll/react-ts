@@ -1,0 +1,23 @@
+@import "../../theme/Colors.scss";
+$HEIGHT: 250px;
+.projectItem {
+  &:hover {
+    background-color: $primary;
+    cursor: pointer;
+    color: white;
+  }
+  &.active {
+    background-color: $primary;
+    color: white;
+  }
+}
+
+.projectImage {
+  height: 250px;
+  max-width: 250px;
+  object-fit: contain;
+}
+.itemBox {
+  max-height: $HEIGHT;
+  overflow-y: auto;
+}
