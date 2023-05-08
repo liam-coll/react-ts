@@ -1,17 +1,6 @@
 @import "./Colors.scss";
 @import "./Buttons.scss";
-.btn-primary {
-  color: white !important;
-  font-weight: bold;
-  font-size: 1.125rem !important;
-  border: 0 !important;
-  background: repeating-linear-gradient(
-    -31deg,
-    #297acc,
-    #297acc 10px,
-    $primary 10px,
-    $primary 20px
-  );
-}
+@import "./Accordion.scss";
+@import "./Tabs.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap/scss/utilities/";

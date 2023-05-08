@@ -6,16 +6,17 @@ import { WorkExperience } from "./components/WorkExperience/WorkExperience";
 import { ProjectShowcase } from "./components/ProjectShowcase/ProjectShowcase";
 import { Contact } from "./components/Contact/Contact";
 import { Blog } from "./components/Blog/Blog";
-
+import { Education } from "./components/Education/Education";
 function App() {
   return (
     <Container className="content">
       <Header />
       <Blurb />
-      <WorkExperience />
       <ProjectShowcase />
-      <Blog />
+      <WorkExperience />
+      <Education />
       <Contact />
+      <Blog />
     </Container>
   );
 }

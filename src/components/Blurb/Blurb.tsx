@@ -2,16 +2,16 @@ export const Blurb: React.FC<any> = (props: any) => {
   return (
     <>
       <h2>About Me</h2>
-      <p>
-        I am a junior front-end developer and creative technologist based in
-        Tāmaki Makaurau/Auckland, New Zealand. I employ a multi-disciplinary
-        approach to my work and learning, possessing a large range of skills
-        obtained through my formal education, work experience and my freelance
-        work. I work freelance as an independent installation artist, primarily
-        using my skills in microcontroller programming and lighting. I also
-        studied game design, and have created several small digital games, which
-        can be viewed on my <a href="https://liam-coll.itch.io/">itch.io</a>{" "}
-        page.
+      <p className="contentArea">
+        My passion is creative technologies and bridging the gap between the
+        development and design worlds. I spend my free time working on passion
+        projects, mostly involving personal front-end projects, hobbyist
+        electronics, Arduino programming and creating installation art pieces.
+        <br />I have spent the past few years working in front-end development
+        and I possess solid knowledge of HTML, CSS, JavaScript, React.js and
+        Bootstrap and more, with an ability to quickly learn new technologies. I
+        have demonstrated success in identifying and resolving complex code
+        issues.
       </p>
     </>
   );
