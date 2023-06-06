@@ -26,6 +26,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      VITE_TUMBLR_KEY: ej7Yo3jhW2H9fxDcsoSbafXKaQzMFaUVqKXNUI2gtHubpbPStK
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
