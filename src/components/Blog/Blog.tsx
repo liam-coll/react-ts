@@ -26,7 +26,6 @@ export const Blog: React.FC<any> = () => {
   const findYears = () => {
     posts.forEach((post: post) => {
       if (!years.includes(getYear(post))) {
-        console.log(years);
         setYears([...years, getYear(post)]);
       }
     });
@@ -73,8 +72,6 @@ export const Blog: React.FC<any> = () => {
                 ></p>
               </Accordion.Header>
               <Accordion.Body>
-                {item.timestamp &&
-                  new Date(item.timestamp * 1000).getFullYear()}
                 {item.type !== "video" ? (
                   <p
                     dangerouslySetInnerHTML={{
