@@ -24,7 +24,7 @@ export const ProjectShowcase: React.FC<any> = (props: any) => {
   return (
     <>
       <h2>Projects</h2>
-      <Container className="border border-primary d-flex p-0 h-auto bg-white">
+      <Container className="border border-primary d-flex flex-column-reverse flex-lg-row p-0 h-auto bg-white">
         <Container className="p-0 itemBox">
           {data.map((item, index) => (
             <Item {...item} key={index} id={index} />

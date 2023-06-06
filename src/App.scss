@@ -22,6 +22,9 @@ h2:not(.accordion-header) {
   font-size: larger;
   font-family: "Gloria Hallelujah", cursive;
   padding: 10px 0;
+  @media (max-width: 992px) {
+    font-size: large;
+  }
 }
 ul,
 li:not(.nav-item) {

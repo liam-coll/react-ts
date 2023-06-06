@@ -13,9 +13,12 @@ $HEIGHT: 250px;
 }
 
 .projectImage {
-  height: 250px;
-  max-width: 250px;
-  object-fit: contain;
+  width: 100%;
+  @media (min-width: 992px) {
+    height: 250px;
+    max-width: 250px;
+    object-fit: contain;
+  }
 }
 .itemBox {
   max-height: $HEIGHT;

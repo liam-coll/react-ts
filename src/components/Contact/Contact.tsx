@@ -11,7 +11,7 @@ export const Contact: React.FC<any> = (props: any) => {
   return (
     <Container>
       <h2>Contact</h2>
-      <p className="icons d-flex gap-4 justify-content-center">
+      <p className="icons d-flex gap-0 gap-lg-4 justify-content-center flex-column flex-lg-row align-items-center">
         <a href="mailto:liam@liamcoll.com" title="Email" target="_blank">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
