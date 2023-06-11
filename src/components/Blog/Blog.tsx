@@ -59,15 +59,7 @@ export const Blog: React.FC<any> = () => {
                 <p
                   className="noPadding p-0 m-0"
                   dangerouslySetInnerHTML={{
-                    __html:
-                      item.type === "video"
-                        ? item.caption.slice(
-                            0,
-                            item.caption.indexOf("</p>") + 4
-                          )
-                        : item.title
-                        ? item.title
-                        : "No title",
+                    __html: item.title ? item.title : item.summary,
                   }}
                 ></p>
               </Accordion.Header>
