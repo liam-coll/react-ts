@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Accordion, Image, Tab, Tabs } from "react-bootstrap";
 import axios from "axios";
 interface post {
-  timestamp: number;
+  date: string;
   caption: string;
   title: string;
   body: string;
@@ -14,7 +14,7 @@ export const Blog: React.FC<any> = () => {
   let [years, setYears] = useState<number[]>([]);
 
   const getYear = (item: any) => {
-    return new Date(item.timestamp * 1000).getFullYear();
+    return new Date(item.date).getFullYear();
   };
 
   const [posts, setPosts] = useState<post[]>([]);
@@ -24,11 +24,13 @@ export const Blog: React.FC<any> = () => {
   }`;
 
   const findYears = () => {
+    let returnYears: number[] = [];
     posts.forEach((post: post) => {
-      if (!years.includes(getYear(post))) {
-        setYears([...years, getYear(post)]);
+      if (!returnYears.includes(getYear(post))) {
+        returnYears.push(getYear(post));
       }
     });
+    setYears(returnYears);
   };
 
   const getPosts = () => {
